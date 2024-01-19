@@ -14,6 +14,8 @@
 		19D821EC2B5A57A8005812AF /* GuessDecimalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D821EB2B5A57A8005812AF /* GuessDecimalTests.swift */; };
 		19D821F62B5A57A8005812AF /* GuessDecimalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D821F52B5A57A8005812AF /* GuessDecimalUITests.swift */; };
 		19D821F82B5A57A8005812AF /* GuessDecimalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D821F72B5A57A8005812AF /* GuessDecimalUITestsLaunchTests.swift */; };
+		19D822062B5A6290005812AF /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D822052B5A6290005812AF /* Number.swift */; };
+		19D822082B5A64B9005812AF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D822072B5A64B9005812AF /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		19D821F12B5A57A8005812AF /* GuessDecimalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessDecimalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D821F52B5A57A8005812AF /* GuessDecimalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessDecimalUITests.swift; sourceTree = "<group>"; };
 		19D821F72B5A57A8005812AF /* GuessDecimalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessDecimalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19D822052B5A6290005812AF /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		19D822072B5A64B9005812AF /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 			children = (
 				19D821D92B5A5794005812AF /* GuessDecimalApp.swift */,
 				19D821DB2B5A5794005812AF /* ContentView.swift */,
+				19D822042B5A627C005812AF /* Model */,
 				19D821DD2B5A57A8005812AF /* Assets.xcassets */,
 				19D821DF2B5A57A8005812AF /* GuessDecimal.entitlements */,
 				19D821E02B5A57A8005812AF /* Preview Content */,
@@ -127,6 +132,15 @@
 				19D821F72B5A57A8005812AF /* GuessDecimalUITestsLaunchTests.swift */,
 			);
 			path = GuessDecimalUITests;
+			sourceTree = "<group>";
+		};
+		19D822042B5A627C005812AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19D822052B5A6290005812AF /* Number.swift */,
+				19D822072B5A64B9005812AF /* Game.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +275,8 @@
 			files = (
 				19D821DC2B5A5794005812AF /* ContentView.swift in Sources */,
 				19D821DA2B5A5794005812AF /* GuessDecimalApp.swift in Sources */,
+				19D822062B5A6290005812AF /* Number.swift in Sources */,
+				19D822082B5A64B9005812AF /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
