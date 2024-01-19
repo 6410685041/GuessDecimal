@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D821DA2B5A5794005812AF /* GuessDecimalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D821D92B5A5794005812AF /* GuessDecimalApp.swift */; };
+		19D821DC2B5A5794005812AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D821DB2B5A5794005812AF /* ContentView.swift */; };
+		19D821DE2B5A57A8005812AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D821DD2B5A57A8005812AF /* Assets.xcassets */; };
+		19D821E22B5A57A8005812AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D821E12B5A57A8005812AF /* Preview Assets.xcassets */; };
+		19D821EC2B5A57A8005812AF /* GuessDecimalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D821EB2B5A57A8005812AF /* GuessDecimalTests.swift */; };
+		19D821F62B5A57A8005812AF /* GuessDecimalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D821F52B5A57A8005812AF /* GuessDecimalUITests.swift */; };
+		19D821F82B5A57A8005812AF /* GuessDecimalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D821F72B5A57A8005812AF /* GuessDecimalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19D821E82B5A57A8005812AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D821CE2B5A5794005812AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D821D52B5A5794005812AF;
+			remoteInfo = GuessDecimal;
+		};
+		19D821F22B5A57A8005812AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D821CE2B5A5794005812AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D821D52B5A5794005812AF;
+			remoteInfo = GuessDecimal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19D821D62B5A5794005812AF /* GuessDecimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessDecimal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D821D92B5A5794005812AF /* GuessDecimalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessDecimalApp.swift; sourceTree = "<group>"; };
+		19D821DB2B5A5794005812AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19D821DD2B5A57A8005812AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19D821DF2B5A57A8005812AF /* GuessDecimal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GuessDecimal.entitlements; sourceTree = "<group>"; };
+		19D821E12B5A57A8005812AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19D821E72B5A57A8005812AF /* GuessDecimalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessDecimalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D821EB2B5A57A8005812AF /* GuessDecimalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessDecimalTests.swift; sourceTree = "<group>"; };
+		19D821F12B5A57A8005812AF /* GuessDecimalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessDecimalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D821F52B5A57A8005812AF /* GuessDecimalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessDecimalUITests.swift; sourceTree = "<group>"; };
+		19D821F72B5A57A8005812AF /* GuessDecimalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessDecimalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19D821D32B5A5794005812AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D821E42B5A57A8005812AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D821EE2B5A57A8005812AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D821CD2B5A5794005812AF = {
+			isa = PBXGroup;
+			children = (
+				19D821D82B5A5794005812AF /* GuessDecimal */,
+				19D821EA2B5A57A8005812AF /* GuessDecimalTests */,
+				19D821F42B5A57A8005812AF /* GuessDecimalUITests */,
+				19D821D72B5A5794005812AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19D821D72B5A5794005812AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19D821D62B5A5794005812AF /* GuessDecimal.app */,
+				19D821E72B5A57A8005812AF /* GuessDecimalTests.xctest */,
+				19D821F12B5A57A8005812AF /* GuessDecimalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19D821D82B5A5794005812AF /* GuessDecimal */ = {
+			isa = PBXGroup;
+			children = (
+				19D821D92B5A5794005812AF /* GuessDecimalApp.swift */,
+				19D821DB2B5A5794005812AF /* ContentView.swift */,
+				19D821DD2B5A57A8005812AF /* Assets.xcassets */,
+				19D821DF2B5A57A8005812AF /* GuessDecimal.entitlements */,
+				19D821E02B5A57A8005812AF /* Preview Content */,
+			);
+			path = GuessDecimal;
+			sourceTree = "<group>";
+		};
+		19D821E02B5A57A8005812AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19D821E12B5A57A8005812AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19D821EA2B5A57A8005812AF /* GuessDecimalTests */ = {
+			isa = PBXGroup;
+			children = (
+				19D821EB2B5A57A8005812AF /* GuessDecimalTests.swift */,
+			);
+			path = GuessDecimalTests;
+			sourceTree = "<group>";
+		};
+		19D821F42B5A57A8005812AF /* GuessDecimalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19D821F52B5A57A8005812AF /* GuessDecimalUITests.swift */,
+				19D821F72B5A57A8005812AF /* GuessDecimalUITestsLaunchTests.swift */,
+			);
+			path = GuessDecimalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19D821D52B5A5794005812AF /* GuessDecimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D821FB2B5A57A8005812AF /* Build configuration list for PBXNativeTarget "GuessDecimal" */;
+			buildPhases = (
+				19D821D22B5A5794005812AF /* Sources */,
+				19D821D32B5A5794005812AF /* Frameworks */,
+				19D821D42B5A5794005812AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessDecimal;
+			productName = GuessDecimal;
+			productReference = 19D821D62B5A5794005812AF /* GuessDecimal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19D821E62B5A57A8005812AF /* GuessDecimalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D821FE2B5A57A8005812AF /* Build configuration list for PBXNativeTarget "GuessDecimalTests" */;
+			buildPhases = (
+				19D821E32B5A57A8005812AF /* Sources */,
+				19D821E42B5A57A8005812AF /* Frameworks */,
+				19D821E52B5A57A8005812AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D821E92B5A57A8005812AF /* PBXTargetDependency */,
+			);
+			name = GuessDecimalTests;
+			productName = GuessDecimalTests;
+			productReference = 19D821E72B5A57A8005812AF /* GuessDecimalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19D821F02B5A57A8005812AF /* GuessDecimalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D822012B5A57A8005812AF /* Build configuration list for PBXNativeTarget "GuessDecimalUITests" */;
+			buildPhases = (
+				19D821ED2B5A57A8005812AF /* Sources */,
+				19D821EE2B5A57A8005812AF /* Frameworks */,
+				19D821EF2B5A57A8005812AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D821F32B5A57A8005812AF /* PBXTargetDependency */,
+			);
+			name = GuessDecimalUITests;
+			productName = GuessDecimalUITests;
+			productReference = 19D821F12B5A57A8005812AF /* GuessDecimalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19D821CE2B5A5794005812AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					19D821D52B5A5794005812AF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					19D821E62B5A57A8005812AF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 19D821D52B5A5794005812AF;
+					};
+					19D821F02B5A57A8005812AF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 19D821D52B5A5794005812AF;
+					};
+				};
+			};
+			buildConfigurationList = 19D821D12B5A5794005812AF /* Build configuration list for PBXProject "GuessDecimal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19D821CD2B5A5794005812AF;
+			productRefGroup = 19D821D72B5A5794005812AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19D821D52B5A5794005812AF /* GuessDecimal */,
+				19D821E62B5A57A8005812AF /* GuessDecimalTests */,
+				19D821F02B5A57A8005812AF /* GuessDecimalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19D821D42B5A5794005812AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D821E22B5A57A8005812AF /* Preview Assets.xcassets in Resources */,
+				19D821DE2B5A57A8005812AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D821E52B5A57A8005812AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D821EF2B5A57A8005812AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19D821D22B5A5794005812AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D821DC2B5A5794005812AF /* ContentView.swift in Sources */,
+				19D821DA2B5A5794005812AF /* GuessDecimalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D821E32B5A57A8005812AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D821EC2B5A57A8005812AF /* GuessDecimalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D821ED2B5A57A8005812AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D821F82B5A57A8005812AF /* GuessDecimalUITestsLaunchTests.swift in Sources */,
+				19D821F62B5A57A8005812AF /* GuessDecimalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19D821E92B5A57A8005812AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D821D52B5A5794005812AF /* GuessDecimal */;
+			targetProxy = 19D821E82B5A57A8005812AF /* PBXContainerItemProxy */;
+		};
+		19D821F32B5A57A8005812AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D821D52B5A5794005812AF /* GuessDecimal */;
+			targetProxy = 19D821F22B5A57A8005812AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19D821F92B5A57A8005812AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19D821FA2B5A57A8005812AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		19D821FC2B5A57A8005812AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GuessDecimal/GuessDecimal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessDecimal/Preview Content\"";
+				DEVELOPMENT_TEAM = GW582Z4DA7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chalisa-thummaraj.GuessDecimal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19D821FD2B5A57A8005812AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GuessDecimal/GuessDecimal.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessDecimal/Preview Content\"";
+				DEVELOPMENT_TEAM = GW582Z4DA7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chalisa-thummaraj.GuessDecimal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19D821FF2B5A57A8005812AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW582Z4DA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chalisa-thummaraj.GuessDecimalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessDecimal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GuessDecimal";
+			};
+			name = Debug;
+		};
+		19D822002B5A57A8005812AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW582Z4DA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chalisa-thummaraj.GuessDecimalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessDecimal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GuessDecimal";
+			};
+			name = Release;
+		};
+		19D822022B5A57A8005812AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW582Z4DA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chalisa-thummaraj.GuessDecimalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessDecimal;
+			};
+			name = Debug;
+		};
+		19D822032B5A57A8005812AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GW582Z4DA7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chalisa-thummaraj.GuessDecimalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuessDecimal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19D821D12B5A5794005812AF /* Build configuration list for PBXProject "GuessDecimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D821F92B5A57A8005812AF /* Debug */,
+				19D821FA2B5A57A8005812AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D821FB2B5A57A8005812AF /* Build configuration list for PBXNativeTarget "GuessDecimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D821FC2B5A57A8005812AF /* Debug */,
+				19D821FD2B5A57A8005812AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D821FE2B5A57A8005812AF /* Build configuration list for PBXNativeTarget "GuessDecimalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D821FF2B5A57A8005812AF /* Debug */,
+				19D822002B5A57A8005812AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D822012B5A57A8005812AF /* Build configuration list for PBXNativeTarget "GuessDecimalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D822022B5A57A8005812AF /* Debug */,
+				19D822032B5A57A8005812AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19D821CE2B5A5794005812AF /* Project object */;
+}
