@@ -15,16 +15,17 @@ struct Game {
     
     mutating func check(guess: Num) -> String {
         let diff = guess.compare(target: target)
-        count += 1
         if ( diff == 1 ){
-            return "Too Upper"
+            count += 1
+            return "The correct one is lower"
         }
         else if ( diff == -1 ){
-            return "Too lower"
+            count += 1
+            return "The correct is higher"
         }
         else {
             isEnd = true
-            return "Right number"
+            return "You have select right number!"
         }
     }
     
