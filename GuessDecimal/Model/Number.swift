@@ -10,15 +10,15 @@ import Foundation
 struct Num {
     var number = 50.0
     
-    static func random() -> Num {
+    static func random(max: Double) -> Num {
         var num = Num()
-        num.number = Double.random(in: 0...100)
+        num.number = Double(lround(Double.random(in: 0...1)*max))
         return num
     }
     
     func compare(target: Num) -> Int {
-        var check = lround(target.number)
-        var num = lround(number)
+        let check = target.number
+        let num = number
         if (check < num){
             return 1
         }
@@ -30,7 +30,11 @@ struct Num {
         }
     }
     
+    func toInt() -> Int {
+        return Int(number)
+    }
+    
     func intString() -> String {
-        "A number is \(number)"
+        "A number is \(toInt())"
     }
 }

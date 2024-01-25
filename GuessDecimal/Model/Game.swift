@@ -9,9 +9,15 @@ import Foundation
 
 struct Game {
     let start = Num()
-    var target = Num.random()
+    var target = Num()
     var isEnd = false
+    var isNotStart = true
     var count = 0
+    
+    mutating func startGame(max: Double) {
+        target = Num.random(max: max)
+        isNotStart = false
+    }
     
     mutating func check(guess: Num) -> String {
         let diff = guess.compare(target: target)
@@ -32,6 +38,6 @@ struct Game {
     mutating func startNewGame() {
         count = 0
         isEnd = false
-        target = Num.random()
+        isNotStart = true
     }
 }
