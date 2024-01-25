@@ -62,16 +62,22 @@ struct ContentView: View {
 
 struct NumberSlider: View {
     @Binding var value: Double
-    var maxRange = max // red flag
+    var maxRange: Double
+
+    init(value: Binding<Double>, maxRange: Double) {
+        self._value = value
+        self.maxRange = maxRange
+    }
+
     var body: some View {
-        HStack{
+        HStack {
             Text("0")
             Slider(
                 value: $value,
                 in: 1...maxRange,
                 step: 1
             )
-            Text("100")
+            Text("\(maxRange)") // Display the maximum value
         }
     }
     
