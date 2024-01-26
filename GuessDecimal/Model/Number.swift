@@ -8,7 +8,7 @@
 import Foundation
 
 struct Num {
-    var number = 50.0
+    var number = 0.0
     
     static func random(max: Double) -> Num {
         var num = Num()
