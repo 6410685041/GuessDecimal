@@ -35,6 +35,6 @@ struct Num {
     }
     
     func intString() -> String {
-        "A number is \(toInt())"
+        "\(toInt())"
     }
 }

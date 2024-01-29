@@ -35,6 +35,10 @@ struct Game {
         }
     }
     
+    func RoundNumber() -> String {
+        "Round \(count)"
+    }
+    
     mutating func startNewGame() {
         count = 0
         isEnd = false

@@ -83,9 +83,17 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		19C849A62B67A1B20050846B /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		19D821CD2B5A5794005812AF = {
 			isa = PBXGroup;
 			children = (
+				19C849A62B67A1B20050846B /* images */,
 				19D821D82B5A5794005812AF /* GuessDecimal */,
 				19D821EA2B5A57A8005812AF /* GuessDecimalTests */,
 				19D821F42B5A57A8005812AF /* GuessDecimalUITests */,
