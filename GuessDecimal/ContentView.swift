@@ -109,6 +109,16 @@ struct ContentView: View {
                                     .cornerRadius(7)
                                     .foregroundColor(Color.white)
                                     .fontWeight(.bold)
+                                Button("restart"){
+                                    guess = Num()
+                                    game.startNewGame()
+                                }
+                                    .padding(7.0)
+                                    .padding(.horizontal, 10.0)
+                                    .background(Color(UIColor(hex: "#C26068")))
+                                    .cornerRadius(7)
+                                    .foregroundColor(Color.white)
+                                    .fontWeight(.bold)
                             }
                         )
                     VStack{
