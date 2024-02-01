@@ -33,3 +33,5 @@ Student ID: 6410685041
 ![Guessing](./images/Guessing_process.png)
 
 ### Demo Video
+
+[Click here](https://drive.google.com/file/d/1PS2iAIsktVuuOB_QL5lxVs1u8SUefguD/view?usp=sharing)
